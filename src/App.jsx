@@ -4,10 +4,10 @@ function App() {
 
   return (
     <>
-      <header>
-        <h1>Mi portfolio</h1>
-        <nav>
-          <u>
+      <header className='header_container'>
+        <nav className='nav_bar'>
+          <h1 className='title'>Mi portfolio</h1>
+          <u className='nav_options'>
             <il>Home</il>
             <il>about</il>
             <il>education</il>
